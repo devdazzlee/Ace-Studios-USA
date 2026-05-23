@@ -61,14 +61,14 @@ export default function MerchandisingPage() {
       pricing={[
         {
           name: 'Merch Audit',
-          price: '£3,500',
+          price: '$3,500',
           priceSuffix: 'one-time',
           description: 'Snapshot of your assortment and quick wins.',
           features: ['Category sell-through review', 'Pricing & margin analysis', 'PDP audit (top 25 SKUs)', 'Photography assessment', 'Quick-win action plan', '2-week delivery'],
         },
         {
           name: 'Merch Retainer',
-          price: '£5,500',
+          price: '$5,500',
           priceSuffix: '/month',
           description: 'Ongoing senior merchandiser embedded with your team.',
           features: ['Weekly sell-through reviews', 'Assortment & pricing strategy', 'Trend forecasting', 'PDP optimization', 'Photo & 3D direction', 'Seasonal planning', 'Bi-weekly strategy calls'],

@@ -61,14 +61,14 @@ export default function CustomSoftwarePage() {
       pricing={[
         {
           name: 'Prototype',
-          price: '£8,000',
+          price: '$8,000',
           priceSuffix: 'starting',
           description: 'Validate an idea with a working MVP.',
           features: ['Up to 6 core screens', 'Auth & basic database', 'Stripe integration', 'Deployed to Vercel', '30-day support', '6-week delivery'],
         },
         {
           name: 'Production App',
-          price: '£35,000',
+          price: '$35,000',
           priceSuffix: 'starting',
           description: 'A polished launch app with full feature set.',
           features: ['Unlimited screens & flows', 'Custom API & database', 'Auth, roles, multi-tenant', 'Stripe billing & subscriptions', 'Admin dashboard', 'CI/CD + monitoring', 'Documentation & handover', '90-day support'],
@@ -85,7 +85,7 @@ export default function CustomSoftwarePage() {
         { question: 'What tech stack do you use?', answer: 'Default: Next.js, TypeScript, Node.js, Postgres, and Tailwind. We adjust based on requirements, Python/Django, Rust, or Go where it fits.' },
         { question: 'How long does an MVP take?', answer: 'Prototypes ship in 6 weeks. Production apps in 10–14 weeks. Enterprise builds depend on scope and team size.' },
         { question: 'Do I own the code?', answer: 'Completely. We hand over the GitHub repo, all cloud credentials, and full documentation at the end of every engagement.' },
-        { question: 'Do you offer ongoing maintenance?', answer: 'Yes. We offer fractional engineering retainers and dedicated team augmentation, typically £5,000–£25,000/month based on need.' },
+        { question: 'Do you offer ongoing maintenance?', answer: 'Yes. We offer fractional engineering retainers and dedicated team augmentation, typically $5,000–$25,000/month based on need.' },
         { question: 'Can you take over an existing codebase?', answer: 'Yes. We do tech audits, code reviews, and team take-overs frequently. We can stabilize, refactor, or extend code that started elsewhere.' },
       ]}
       testimonials={[

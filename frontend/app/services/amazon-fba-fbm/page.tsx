@@ -26,7 +26,7 @@ export default function AmazonFBAFBMPage() {
       secondaryCTA="See Case Studies"
       stats={[
         { value: 180, suffix: '+', label: 'Amazon Brands' },
-        { value: 200, suffix: 'M+', prefix: '£', label: 'Sales Driven' },
+        { value: 200, suffix: 'M+', prefix: '$', label: 'Sales Driven' },
         { value: 4.3, suffix: '%', label: 'Avg. ACOS' },
         { value: 12, suffix: '+', label: '#1 BSR Rankings' },
       ]}
@@ -61,37 +61,37 @@ export default function AmazonFBAFBMPage() {
       pricing={[
         {
           name: 'Launch',
-          price: '£2,500',
+          price: '$2,500',
           priceSuffix: '/month',
           description: 'For new sellers or single-product launches.',
-          features: ['Listing optimization (up to 5)', 'PPC management (up to £5k ad spend)', 'Weekly reporting', 'Brand Registry setup', 'Review request automation', 'Email support'],
+          features: ['Listing optimization (up to 5)', 'PPC management (up to $5k ad spend)', 'Weekly reporting', 'Brand Registry setup', 'Review request automation', 'Email support'],
         },
         {
           name: 'Growth',
-          price: '£5,500',
+          price: '$5,500',
           priceSuffix: '/month',
-          description: 'For brands doing £50k–£500k/month on Amazon.',
-          features: ['Listings (up to 25)', 'PPC up to £25k spend', 'A+ content & Brand Store', 'Inventory forecasting', 'Hijacker removal', 'Bi-weekly strategy calls', 'Slack support'],
+          description: 'For brands doing $50k–$500k/month on Amazon.',
+          features: ['Listings (up to 25)', 'PPC up to $25k spend', 'A+ content & Brand Store', 'Inventory forecasting', 'Hijacker removal', 'Bi-weekly strategy calls', 'Slack support'],
           popular: true,
         },
         {
           name: 'Enterprise',
           price: 'Custom',
-          description: 'For brands £500k+/month on Amazon.',
+          description: 'For brands $500k+/month on Amazon.',
           features: ['Unlimited listings', 'Unlimited PPC spend', 'Amazon DSP', 'International expansion', 'Walmart & Target+ ready', 'Dedicated team', 'Quarterly strategy', 'Bespoke pricing'],
         },
       ]}
       faqs={[
         { question: 'Do you manage PPC and creative both?', answer: 'Yes. We are end-to-end, copy, images, A+ content, PPC, DSP, and inventory all under one roof. No vendors to coordinate.' },
         { question: "What's a typical ACOS target?", answer: 'It depends on category and product margin. We start with category benchmarks and optimize toward your target TACoS over 60–90 days.' },
-        { question: 'Do you help with international expansion?', answer: 'Yes. We launch on Amazon UK, EU (5), US, CA, MX, and JP. Same approach, localized for each marketplace.' },
+        { question: 'Do you help with international expansion?', answer: 'Yes. We launch on Amazon US, CA, MX, UK, EU (5), and JP. Same approach, localized for each marketplace.' },
         { question: "Can you remove hijackers and counterfeit sellers?", answer: 'Absolutely. We handle test buys, IP complaints, and Amazon brand protection escalations, included in Growth and Enterprise tiers.' },
         { question: "Do I keep ownership of my Seller Central?", answer: 'Always. We work inside your account, never our own. Full transparency, full ownership, full control.' },
       ]}
       testimonials={[
         { name: 'Marcus Chen', role: 'Amazon Seller', quote: 'They helped me rank #1 BSR in three subcategories and 4x revenue in 6 months. ACOS dropped from 38% to 14%.' },
         { name: 'Jessica Williams', role: 'FBA Founder', quote: 'Their PPC team is on another level. We have tried five agencies. None compare to the dedicated strategy and creative they bring.' },
-        { name: 'James Wilson', role: 'CPG Brand Owner', quote: 'Crossed £1M/month on Amazon nine months in. Could not have done it without their listing and PPC playbook.' },
+        { name: 'James Wilson', role: 'CPG Brand Owner', quote: 'Crossed $1M/month on Amazon nine months in. Could not have done it without their listing and PPC playbook.' },
       ]}
       ctaHeading="Ready to scale on Amazon?"
       ctaSubheading="Free audit identifying the top 3 gaps in your Amazon listings, ads, and brand presence."

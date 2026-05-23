@@ -196,7 +196,7 @@ export default function Home() {
       description: 'End-to-end guidance for launching and structuring your online business.',
       href: '/services/online-business-setup',
       gradient: 'from-purple-500 to-fuchsia-600',
-      tags: ['Ltd', 'Tax', 'Strategy'],
+      tags: ['LLC', 'Tax', 'Strategy'],
     },
   ]
 
@@ -343,14 +343,14 @@ export default function Home() {
   const plans = [
     {
       name: 'Starter',
-      price: '£2,500',
+      price: '$2,500',
       blurb: 'For founders launching their first online presence.',
       perks: ['Brand & identity', '5-page website', 'Basic SEO', '30-day support'],
       featured: false,
     },
     {
       name: 'Growth',
-      price: '£7,500',
+      price: '$7,500',
       blurb: 'For brands ready to scale revenue and reach.',
       perks: ['Everything in Starter', 'Shopify or custom build', 'Paid media setup', '90-day optimization'],
       featured: true,
@@ -384,7 +384,7 @@ export default function Home() {
     {
       slug: 'digital-marketing-trends-2025',
       tag: 'Marketing',
-      title: 'A simple paid-ads framework that scales to £1M/month',
+      title: 'A simple paid-ads framework that scales to $1M/month',
       readTime: '8 min read',
       gradient: 'from-blue-400 to-indigo-500',
       image: '/marketing-service.jpg',
@@ -714,7 +714,7 @@ export default function Home() {
             {[
               { value: 500, suffix: '+', label: 'Clients Served', icon: HeartIcon },
               { value: 1000, suffix: '+', label: 'Projects Completed', icon: RocketIcon },
-              { value: 50, suffix: 'M+', prefix: '£', label: 'Revenue Generated', icon: TrendingUpIcon },
+              { value: 50, suffix: 'M+', prefix: '$', label: 'Revenue Generated', icon: TrendingUpIcon },
               { value: 98, suffix: '%', label: 'Client Satisfaction', icon: StarIcon },
             ].map((s, i) => (
               <motion.div

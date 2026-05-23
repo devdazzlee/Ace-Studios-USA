@@ -61,14 +61,14 @@ export default function WebsiteDevelopmentPage() {
       pricing={[
         {
           name: 'Starter Site',
-          price: '£3,500',
+          price: '$3,500',
           priceSuffix: 'one-time',
           description: 'A 5-page launch site for new ventures.',
           features: ['Up to 5 pages', 'Mobile-responsive design', 'On-page SEO', 'Contact form & analytics', '1 round of revisions', '30-day support', '3-week delivery'],
         },
         {
           name: 'Growth Site',
-          price: '£9,500',
+          price: '$9,500',
           priceSuffix: 'one-time',
           description: 'Conversion-focused marketing site.',
           features: ['Up to 15 pages', 'Custom CMS integration', 'Advanced SEO & schema', 'Blog & content system', 'A/B testing setup', '2 rounds of revisions', '60-day optimization', '5-week delivery'],
@@ -76,7 +76,7 @@ export default function WebsiteDevelopmentPage() {
         },
         {
           name: 'Enterprise Site',
-          price: '£24,000+',
+          price: '$24,000+',
           priceSuffix: 'custom',
           description: 'Complex sites, integrations, and bespoke features.',
           features: ['Unlimited pages', 'Custom integrations', 'Headless CMS', 'Personalization', 'Multi-language', 'Performance budget', 'Quarterly optimization', 'Dedicated team'],
@@ -87,7 +87,7 @@ export default function WebsiteDevelopmentPage() {
         { question: 'What technologies do you use?', answer: 'We default to Next.js, React, TypeScript, and Tailwind CSS for marketing sites. For content-heavy projects we pair with Sanity or Contentful as a headless CMS.' },
         { question: 'Do I own the website after launch?', answer: 'Completely. We hand over the GitHub repo, all assets, and full credentials. No vendor lock-in, ever.' },
         { question: 'Can you migrate my existing site?', answer: 'Yes. We handle data migration, URL redirects, and SEO preservation so you keep your rankings during the move.' },
-        { question: 'Do you offer ongoing maintenance?', answer: 'Yes. Maintenance retainers start at £500/month and cover hosting, updates, security, and minor changes.' },
+        { question: 'Do you offer ongoing maintenance?', answer: 'Yes. Maintenance retainers start at $500/month and cover hosting, updates, security, and minor changes.' },
       ]}
       testimonials={[
         { name: 'Daniel Park', role: 'CEO, Northstar Apparel', quote: 'Conversion rate jumped 45% in the first month after launch. The team treated our project like their own startup.' },

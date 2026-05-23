@@ -27,7 +27,12 @@
       "Bash(curl -s -w \"\\\\nHTTP %{http_code}\\\\n\" -X OPTIONS http://localhost:3001/api/send -H \"Origin: https://evil.example.com\" -H \"Access-Control-Request-Method: POST\")",
       "Bash(curl -s -I -X OPTIONS http://localhost:3001/api/send -H \"Origin: https://acestudiosuk.com\" -H \"Access-Control-Request-Method: POST\")",
       "Bash(curl -s -I -X OPTIONS http://localhost:3001/api/send -H \"Origin: https://evil.example.com\" -H \"Access-Control-Request-Method: POST\")",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(gh --version)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(git fetch *)",
+      "Bash(git remote *)"
     ],
     "additionalDirectories": [
       "c:\\Users\\Lenovo\\Downloads\\ace-studios-website\\app\\work",

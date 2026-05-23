@@ -276,7 +276,7 @@ export default function WorkDetailClient({ slug }: { slug: string }) {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
             {work.results.map((r, i) => {
               const { num, suffix } = extractNumeric(r.metric)
-              const isNumeric = num > 0 && /^[+\-£#]*[\d,.]+/.test(r.metric)
+              const isNumeric = num > 0 && /^[+\-$#]*[\d,.]+/.test(r.metric)
               return (
                 <motion.div
                   key={r.label}
@@ -291,10 +291,10 @@ export default function WorkDetailClient({ slug }: { slug: string }) {
                     {isNumeric ? (
                       <>
                         {r.metric.startsWith('+') && '+'}
-                        {r.metric.startsWith('£') && '£'}
+                        {r.metric.startsWith('$') && '$'}
                         {r.metric.startsWith('-') && '-'}
                         {r.metric.startsWith('#') && '#'}
-                        <AnimatedCounter value={num} suffix={suffix.replace(/^[#£+\-]/, '')} />
+                        <AnimatedCounter value={num} suffix={suffix.replace(/^[#$+\-]/, '')} />
                       </>
                     ) : (
                       r.metric

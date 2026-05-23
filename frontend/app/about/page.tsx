@@ -151,7 +151,7 @@ export default function About() {
 
   const stats = [
     { value: 500, suffix: '+', label: 'Happy Clients', icon: HeartIcon },
-    { value: 50, suffix: 'M+', label: 'Revenue Generated', icon: TrendingUpIcon, prefix: '£' },
+    { value: 50, suffix: 'M+', label: 'Revenue Generated', icon: TrendingUpIcon, prefix: '$' },
     { value: 12, suffix: '+', label: 'Years of Excellence', icon: TrophyIcon },
     { value: 40, suffix: '+', label: 'Countries Served', icon: GlobeIcon },
   ]
@@ -304,7 +304,7 @@ export default function About() {
       year: '2019',
       title: '100+ Clients Milestone',
       description:
-        'Celebrated 100 successful client partnerships and £20M+ in collective client revenue. Expanded team to 25+ specialists.',
+        'Celebrated 100 successful client partnerships and $20M+ in collective client revenue. Expanded team to 25+ specialists.',
     },
     {
       year: '2021',
@@ -374,7 +374,7 @@ export default function About() {
     },
     {
       q: 'What size businesses do you typically work with?',
-      a: 'From scrappy first-time founders to 8-figure brands. Our pricing scales with you, so we are equally happy launching a brand-new store as we are optimizing a multi-million-pound one.',
+      a: 'From scrappy first-time founders to 8-figure brands. Our pricing scales with you, so we are equally happy launching a brand-new store as we are optimizing a multi-million-dollar one.',
     },
     {
       q: 'How quickly can we get started?',
@@ -710,7 +710,7 @@ export default function About() {
                 build a profitable online business.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Today, we&apos;ve helped 500+ entrepreneurs and businesses generate over £50M in
+                Today, we&apos;ve helped 500+ entrepreneurs and businesses generate over $50M in
                 combined revenue. Every project, every client, every day, we&apos;re here to prove
                 that great design and engineering, aligned with smart strategy, transforms
                 businesses.
@@ -963,7 +963,7 @@ export default function About() {
                 {[
                   { v: '98%', l: 'Client retention' },
                   { v: '24h', l: 'Avg. reply time' },
-                  { v: '£50M+', l: 'Revenue generated' },
+                  { v: '$50M+', l: 'Revenue generated' },
                   { v: '0', l: 'Junior hand-offs' },
                 ].map((m, i) => (
                   <motion.div

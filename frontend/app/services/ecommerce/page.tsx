@@ -26,7 +26,7 @@ export default function EcommercePage() {
       secondaryCTA="See Store Portfolio"
       stats={[
         { value: 400, suffix: '+', label: 'Stores Built' },
-        { value: 38, suffix: 'M+', prefix: '£', label: 'GMV Generated' },
+        { value: 38, suffix: 'M+', prefix: '$', label: 'GMV Generated' },
         { value: 4.2, suffix: '%', label: 'Avg. Conversion' },
         { value: 67, suffix: '%', label: 'Avg. Return Customer' },
       ]}
@@ -61,14 +61,14 @@ export default function EcommercePage() {
       pricing={[
         {
           name: 'Launch Store',
-          price: '£4,500',
+          price: '$4,500',
           priceSuffix: 'one-time',
           description: 'For founders launching their first store.',
           features: ['Premium theme customization', 'Up to 50 product listings', 'Payment & shipping setup', 'Basic email flows', 'Analytics setup', '30-day support', '4-week delivery'],
         },
         {
           name: 'Growth Store',
-          price: '£12,500',
+          price: '$12,500',
           priceSuffix: 'one-time',
           description: 'Custom design with conversion focus.',
           features: ['Custom storefront design', 'Unlimited products', 'Klaviyo email & SMS', 'CRO audit & A/B testing', 'Subscription support', 'Reviews & loyalty', '90-day optimization', '6-week delivery'],
@@ -76,7 +76,7 @@ export default function EcommercePage() {
         },
         {
           name: 'Enterprise Store',
-          price: '£30,000+',
+          price: '$30,000+',
           priceSuffix: 'custom',
           description: 'Shopify Plus or headless commerce.',
           features: ['Headless or Shopify Plus', 'Custom checkout', 'B2B + wholesale', 'Multi-region & currency', 'ERP & POS integration', 'Dedicated team', 'Quarterly roadmap', 'Bespoke pricing'],
@@ -87,7 +87,7 @@ export default function EcommercePage() {
         { question: 'Can you migrate my existing store?', answer: 'Yes. We handle product, customer, and order data migration with zero downtime and SEO preservation.' },
         { question: 'Do you set up payments & shipping?', answer: 'Completely. Stripe, PayPal, Shop Pay, real-time shipping rates, tax automation, all configured before launch.' },
         { question: 'How do you handle subscriptions or B2B?', answer: 'We integrate ReCharge for subscriptions and Shopify B2B (or Wholesale Hero) for wholesale. Custom flows for either are available.' },
-        { question: 'Do you offer ongoing optimization?', answer: 'Yes. Our retainers cover CRO experiments, app management, and growth experiments, typically £2,500–£10,000/month.' },
+        { question: 'Do you offer ongoing optimization?', answer: 'Yes. Our retainers cover CRO experiments, app management, and growth experiments, typically $2,500–$10,000/month.' },
       ]}
       testimonials={[
         { name: 'Priya Mehta', role: 'Founder, Lumora Beauty', quote: 'Revenue tripled in six months. The CRO work alone paid for the entire engagement.' },

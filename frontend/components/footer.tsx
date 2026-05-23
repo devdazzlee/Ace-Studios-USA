@@ -22,7 +22,7 @@ import {
 import axios from 'axios'
 import { API } from '@/config/config'
 
-const CONTACT_EMAIL = 'contact@acestudiosuk.com'
+const CONTACT_EMAIL = 'contact@acestudiosus.com'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -358,18 +358,18 @@ export function Footer() {
                 <li className="flex gap-3">
                   <PhoneIcon size={18} className="text-accent flex-shrink-0 mt-0.5" />
                   <a
-                    href="tel:+447366488595"
+                    href="tel:+17373945403"
                     className="text-white/55 hover:text-white transition-colors text-sm"
                   >
-                    07366 488595
+                    +1 (737) 394-5403
                   </a>
                 </li>
                 <li className="flex gap-3">
                   <MapPinIcon size={18} className="text-accent flex-shrink-0 mt-0.5" />
                   <span className="text-white/55 text-sm leading-relaxed">
-                    Chancery Place, 50 Brown St,
+                    5900 Balcones Dr. STE 100,
                     <br />
-                    Manchester, United Kingdom, M2 2JG
+                    Austin, Texas 78731
                   </span>
                 </li>
               </ul>

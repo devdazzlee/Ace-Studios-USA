@@ -190,7 +190,7 @@ const services = [
     icon: BuildingIcon,
     title: 'Business Setup',
     description: 'End-to-end guidance for launching and structuring your online business.',
-    features: ['Ltd Formation', 'Tax Setup', 'Compliance', 'Strategy'],
+    features: ['LLC Formation', 'Tax Setup', 'Compliance', 'Strategy'],
     href: '/services/online-business-setup',
     gradient: 'from-indigo-500 to-purple-600',
     category: 'Strategy',
@@ -301,7 +301,7 @@ export default function ServicesPage() {
             {[
               { v: 12, s: '', l: 'Services' },
               { v: 500, s: '+', l: 'Clients' },
-              { v: 50, s: 'M+', p: '£', l: 'Revenue' },
+              { v: 50, s: 'M+', p: '$', l: 'Revenue' },
               { v: 98, s: '%', l: 'Satisfaction' },
             ].map((s) => (
               <motion.div

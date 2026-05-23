@@ -69,7 +69,7 @@ const faqs: FAQCategory[] = [
       },
       {
         q: 'Do you work with international clients?',
-        a: 'Yes. Roughly 35% of our clients are based outside the UK. We work asynchronously by default, with synchronous touchpoints scheduled to your time zone.',
+        a: 'Yes. Roughly 35% of our clients are based outside the US. We work asynchronously by default, with synchronous touchpoints scheduled to your time zone.',
       },
       {
         q: 'Are you really in-house, or do you outsource?',
@@ -85,7 +85,7 @@ const faqs: FAQCategory[] = [
     items: [
       {
         q: 'How much do your services cost?',
-        a: 'Every service has three transparent tiers, Starter, Growth, and Elite, visible on each service page. Brand design starts at £799, websites at £3,500, mobile apps at £18,000, marketing retainers at £3,500/month. We also offer fully bespoke pricing.',
+        a: 'Every service has three transparent tiers, Starter, Growth, and Elite, visible on each service page. Brand design starts at $799, websites at $3,500, mobile apps at $18,000, marketing retainers at $3,500/month. We also offer fully bespoke pricing.',
       },
       {
         q: 'How long does a typical project take?',
@@ -145,11 +145,11 @@ const faqs: FAQCategory[] = [
       },
       {
         q: 'Can you help me sell on Amazon?',
-        a: 'Yes, full FBA/FBM service. Listing optimization, PPC, A+ Content, Brand Registry, Vine, inventory forecasting, hijacker takedowns, international expansion. We have launched over 180 Amazon brands and driven £200M+ in sales.',
+        a: 'Yes, full FBA/FBM service. Listing optimization, PPC, A+ Content, Brand Registry, Vine, inventory forecasting, hijacker takedowns, international expansion. We have launched over 180 Amazon brands and driven $200M+ in sales.',
       },
       {
         q: 'Do you do TikTok Shop?',
-        a: 'Yes, and we are a TikTok Shop Partner. Setup, content production, creator affiliate management, live shopping, Spark Ads, GMV Max. We have driven £18M+ in TikTok Shop GMV for our clients.',
+        a: 'Yes, and we are a TikTok Shop Partner. Setup, content production, creator affiliate management, live shopping, Spark Ads, GMV Max. We have driven $18M+ in TikTok Shop GMV for our clients.',
       },
       {
         q: 'Can you migrate my existing store?',
@@ -173,7 +173,7 @@ const faqs: FAQCategory[] = [
       },
       {
         q: 'Do you provide ongoing maintenance?',
-        a: 'Yes. Maintenance retainers cover hosting, security patches, performance monitoring, minor feature work, and bug fixes. Pricing starts at £500/month for sites and scales with complexity.',
+        a: 'Yes. Maintenance retainers cover hosting, security patches, performance monitoring, minor feature work, and bug fixes. Pricing starts at $500/month for sites and scales with complexity.',
       },
       {
         q: 'Will I own the code?',
@@ -680,13 +680,13 @@ export default function FAQPage() {
                 <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 text-sm">
                   <div className="flex items-center gap-2.5 text-white/80">
                     <MailIcon className="size-5 text-accent" />
-                    <a href="mailto:contact@acestudiosuk.com" className="hover:text-accent font-semibold transition-colors">
-                      contact@acestudiosuk.com
+                    <a href="mailto:contact@acestudiosus.com" className="hover:text-accent font-semibold transition-colors">
+                      contact@acestudiosus.com
                     </a>
                   </div>
                   <div className="flex items-center gap-2.5 text-white/80">
                     <PhoneIcon className="size-5 text-accent" />
-                    <span className="font-semibold">07366 488595</span>
+                    <span className="font-semibold">+1 (737) 394-5403</span>
                   </div>
                 </div>
               </div>

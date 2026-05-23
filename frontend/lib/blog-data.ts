@@ -39,7 +39,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'amazon-fba-strategies',
     title: '10 Essential Strategies for Amazon FBA Success in 2025',
     excerpt:
-      'Learn the proven strategies successful sellers use to scale their Amazon business from £10k to £100k+ in annual revenue.',
+      'Learn the proven strategies successful sellers use to scale their Amazon business from $10k to $100k+ in annual revenue.',
     category: 'E-Commerce',
     author: 'John Smith',
     authorRole: 'Head of Amazon Strategy',
@@ -56,11 +56,11 @@ export const blogPosts: BlogPost[] = [
       'Inventory health drives the Buy Box, the algorithm, and your sleep.',
     ],
     intro:
-      "Amazon in 2025 looks nothing like Amazon in 2018. PPC costs are up, organic visibility is harder to win, and the bar for great listings has risen across every category. The sellers winning today are the ones treating Amazon less like a marketplace and more like a full retail channel, owning every touchpoint, every keyword, every photo, every shipment. Here are the ten strategies our team uses to scale brands from £10k/month to £1M+/month on Amazon.",
+      "Amazon in 2025 looks nothing like Amazon in 2018. PPC costs are up, organic visibility is harder to win, and the bar for great listings has risen across every category. The sellers winning today are the ones treating Amazon less like a marketplace and more like a full retail channel, owning every touchpoint, every keyword, every photo, every shipment. Here are the ten strategies our team uses to scale brands from $10k/month to $1M+/month on Amazon.",
     sections: [
       {
         heading: '1. Lead with listing optimization, not ads',
-        body: "Every pound of ad spend is wasted if your listing converts at 4% instead of 14%. Start with a brutal audit of your title, bullets, A+ Content, and image stack. Test new hero images. Rewrite your bullets in benefits-first language. Add a comparison chart in A+ Content. Most brands leave 2–3x conversion lift on the table here before they even open ads.",
+        body: "Every dollar of ad spend is wasted if your listing converts at 4% instead of 14%. Start with a brutal audit of your title, bullets, A+ Content, and image stack. Test new hero images. Rewrite your bullets in benefits-first language. Add a comparison chart in A+ Content. Most brands leave 2–3x conversion lift on the table here before they even open ads.",
       },
       {
         heading: '2. Treat keywords like an inventory of demand',
@@ -92,7 +92,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: '9. Expand to Walmart and Target+ early',
-        body: 'Sellers waiting until they hit £5M to expand multi-channel are leaving money on the table. Walmart Marketplace and Target+ have lower CPC, less competition, and identical fulfillment logistics. Launch with your top 5 SKUs.',
+        body: 'Sellers waiting until they hit $5M to expand multi-channel are leaving money on the table. Walmart Marketplace and Target+ have lower CPC, less competition, and identical fulfillment logistics. Launch with your top 5 SKUs.',
       },
       {
         heading: '10. Build a Day-30 review and Day-60 retention flow',
@@ -119,12 +119,12 @@ export const blogPosts: BlogPost[] = [
     tags: ['Shopify', 'E-commerce', 'Launch', 'Beginners'],
     tldr: [
       'Pick a niche before you pick a product. Niche solves marketing, marketing solves sales.',
-      'Spend on photography, not on theme. A custom-shot £0 free theme outperforms a £400 theme with stock photos.',
+      'Spend on photography, not on theme. A custom-shot $0 free theme outperforms a $400 theme with stock photos.',
       'Klaviyo from day one. Email is 30%+ of mature store revenue, start the flywheel early.',
       'Launch in 21 days. Done > perfect. Iterate post-launch with real data.',
     ],
     intro:
-      'Most first-time Shopify founders take 6 months to launch, spend £5,000 on apps and themes they never use, and stall before their first sale. It does not have to be that way. After helping launch 400+ Shopify stores, we built a 21-day playbook that gets you to live, taking real orders, with the right foundation under you for scale.',
+      'Most first-time Shopify founders take 6 months to launch, spend $5,000 on apps and themes they never use, and stall before their first sale. It does not have to be that way. After helping launch 400+ Shopify stores, we built a 21-day playbook that gets you to live, taking real orders, with the right foundation under you for scale.',
     sections: [
       {
         heading: 'Days 1–3: Pick a niche, not a product',
@@ -190,7 +190,7 @@ export const blogPosts: BlogPost[] = [
       'Spark Ads + creators compound. The math gets crazy at scale.',
     ],
     intro:
-      'TikTok Shop quietly became the fastest-growing commerce channel on Earth in 2024. UK GMV crossed £20B. Brands that were nobodies on Shopify are doing six-figure days on TikTok Shop alone. The opportunity is not subtle, and the window before it saturates is closing. Here is what every founder needs to understand about TikTok Shop right now.',
+      'TikTok Shop quietly became the fastest-growing commerce channel on Earth in 2024. US GMV crossed $20B. Brands that were nobodies on Shopify are doing six-figure days on TikTok Shop alone. The opportunity is not subtle, and the window before it saturates is closing. Here is what every founder needs to understand about TikTok Shop right now.',
     sections: [
       {
         heading: 'Why TikTok Shop is different',
@@ -202,7 +202,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Live shopping is the killer format',
-        body: 'A great live shopping stream is part QVC, part Twitch, part talk show. Hosts demo product, answer comments, drop limited-time codes, and create urgency. The best operators on TikTok Shop run 12+ lives per week. Brands doing £1M/month routinely have studios with 24/7 production.',
+        body: 'A great live shopping stream is part QVC, part Twitch, part talk show. Hosts demo product, answer comments, drop limited-time codes, and create urgency. The best operators on TikTok Shop run 12+ lives per week. Brands doing $1M/month routinely have studios with 24/7 production.',
       },
       {
         heading: 'Spark Ads turn creator content into a flywheel',
@@ -214,7 +214,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     conclusion:
-      "TikTok Shop is where Amazon was in 2012 and Shopify was in 2018, a goldmine for the operators who move fast and a graveyard for the ones who wait. If your product is visually compelling, under £100, and resonates with under-35 audiences, you should be testing TikTok Shop this quarter. The window is real, and shorter than you think.",
+      "TikTok Shop is where Amazon was in 2012 and Shopify was in 2018, a goldmine for the operators who move fast and a graveyard for the ones who wait. If your product is visually compelling, under $100, and resonates with under-35 audiences, you should be testing TikTok Shop this quarter. The window is real, and shorter than you think.",
     related: ['amazon-fba-strategies', 'digital-marketing-trends-2025', 'shopify-store-guide'],
   },
   {
@@ -361,7 +361,7 @@ export const blogPosts: BlogPost[] = [
       'Brand still beats performance, in the long run. Always has, always will.',
     ],
     intro:
-      "Every January, marketing publications run the same 'trends to watch' lists. Most of them are noise. Here are the trends that will actually shape 2025, based on £50M of ad spend we manage and what is actually working for the brands we partner with.",
+      "Every January, marketing publications run the same 'trends to watch' lists. Most of them are noise. Here are the trends that will actually shape 2025, based on $50M of ad spend we manage and what is actually working for the brands we partner with.",
     sections: [
       {
         heading: 'AI as infrastructure, not a feature',
@@ -389,11 +389,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: 'Influencer = creator = affiliate',
-        body: 'The taxonomy collapsed. There is just one category now: people with audiences. Pay them on performance. Recruit aggressively. Equip them with content briefs. The "200 micro-creators on 10% commission" model beats the "one mega-influencer for £50k" model nine times out of ten.',
+        body: 'The taxonomy collapsed. There is just one category now: people with audiences. Pay them on performance. Recruit aggressively. Equip them with content briefs. The "200 micro-creators on 10% commission" model beats the "one mega-influencer for $50k" model nine times out of ten.',
       },
       {
         heading: 'Brand still wins long-term',
-        body: 'Performance marketing buys you customers. Brand marketing buys you margin, repeat purchase, and pricing power. Every successful brand we have helped scale past £20M has invested heavily in brand, not despite of performance, but in addition to it.',
+        body: 'Performance marketing buys you customers. Brand marketing buys you margin, repeat purchase, and pricing power. Every successful brand we have helped scale past $20M has invested heavily in brand, not despite of performance, but in addition to it.',
       },
     ],
     conclusion:

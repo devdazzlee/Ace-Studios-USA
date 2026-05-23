@@ -61,14 +61,14 @@ export default function MobileAppDevelopmentPage() {
       pricing={[
         {
           name: 'MVP App',
-          price: '£18,000',
+          price: '$18,000',
           priceSuffix: 'starting',
           description: 'Validate your idea quickly with a focused MVP.',
           features: ['Up to 8 core screens', 'iOS or Android', 'Basic backend & auth', 'Analytics setup', 'App store submission', '60-day support', '12-week delivery'],
         },
         {
           name: 'Full Production App',
-          price: '£45,000',
+          price: '$45,000',
           priceSuffix: 'starting',
           description: 'A polished launch app with full feature set.',
           features: ['Unlimited screens', 'iOS + Android', 'Custom backend', 'Push & in-app messaging', 'Stripe / IAP integration', 'Admin dashboard', 'ASO & launch marketing', '90-day support'],
@@ -86,7 +86,7 @@ export default function MobileAppDevelopmentPage() {
         { question: 'How long does it take to launch?', answer: 'MVPs ship in 10–12 weeks. Full production apps take 16–20 weeks. Enterprise builds vary by scope.' },
         { question: 'Who handles app store submission?', answer: 'We do, including App Store screenshots, descriptions, ASO, and the actual review process.' },
         { question: 'Do you handle backend infrastructure?', answer: 'Yes. Every project includes a scalable backend, typically on Supabase, Firebase, or AWS depending on your needs.' },
-        { question: 'What happens after launch?', answer: 'Every project includes 60–90 days of support. After that, we offer maintenance retainers starting at £2,500/month.' },
+        { question: 'What happens after launch?', answer: 'Every project includes 60–90 days of support. After that, we offer maintenance retainers starting at $2,500/month.' },
       ]}
       testimonials={[
         { name: 'Aarav Sharma', role: 'Founder, Quill Notes', quote: 'They built our app in 14 weeks and we hit 100k downloads in month one. The code quality is exceptional.' },

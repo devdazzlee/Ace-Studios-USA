@@ -61,7 +61,7 @@ export default function BrandDesignPage() {
       pricing={[
         {
           name: 'Starter Brand',
-          price: '£2,499',
+          price: '$2,499',
           priceSuffix: 'one-time',
           description: 'Perfect for new ventures and solopreneurs.',
           features: [
@@ -76,7 +76,7 @@ export default function BrandDesignPage() {
         },
         {
           name: 'Professional Brand',
-          price: '£6,999',
+          price: '$6,999',
           priceSuffix: 'one-time',
           description: 'Most popular for growing businesses.',
           features: [
@@ -94,7 +94,7 @@ export default function BrandDesignPage() {
         },
         {
           name: 'Premium Brand',
-          price: '£14,999',
+          price: '$14,999',
           priceSuffix: 'one-time',
           description: 'For established brands ready to elevate.',
           features: [

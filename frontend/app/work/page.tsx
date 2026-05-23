@@ -163,7 +163,7 @@ export default function WorkPage() {
             {[
               { v: works.length, s: '+', l: 'Case Studies' },
               { v: 500, s: '+', l: 'Total Clients' },
-              { v: 50, s: 'M+', p: '£', l: 'Revenue' },
+              { v: 50, s: 'M+', p: '$', l: 'Revenue' },
               { v: 98, s: '%', l: 'Repeat Clients' },
             ].map((s) => (
               <motion.div
@@ -313,7 +313,7 @@ export default function WorkPage() {
               Every project starts the same way.
             </h2>
             <p className="text-lg text-muted-foreground">
-              Whether you&apos;re launching a £5k brand refresh or a £500k SaaS, we approach work with the same rigor.
+              Whether you&apos;re launching a $5k brand refresh or a $500k SaaS, we approach work with the same rigor.
             </p>
           </motion.div>
 

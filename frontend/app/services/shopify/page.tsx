@@ -26,7 +26,7 @@ export default function ShopifyPage() {
       secondaryCTA="See Shopify Work"
       stats={[
         { value: 250, suffix: '+', label: 'Shopify Stores' },
-        { value: 22, suffix: 'M+', prefix: '£', label: 'Annual GMV' },
+        { value: 22, suffix: 'M+', prefix: '$', label: 'Annual GMV' },
         { value: 4.6, suffix: '%', label: 'Avg. Conversion' },
         { value: 95, suffix: '+', label: 'PageSpeed Score' },
       ]}
@@ -61,14 +61,14 @@ export default function ShopifyPage() {
       pricing={[
         {
           name: 'Theme Refresh',
-          price: '£3,500',
+          price: '$3,500',
           priceSuffix: 'one-time',
           description: 'Speed up and redesign your existing store.',
           features: ['Premium theme + customization', 'CRO audit & quick wins', 'PageSpeed optimization', 'Up to 30 products migrated', '30-day support', '3-week delivery'],
         },
         {
           name: 'Custom Theme Build',
-          price: '£15,000',
+          price: '$15,000',
           priceSuffix: 'one-time',
           description: 'Bespoke theme built from scratch.',
           features: ['Custom Figma design', 'Custom Liquid theme', 'Klaviyo & subscription setup', 'B2B / wholesale optional', 'Headless option available', '90-day optimization', '8-week delivery'],
@@ -76,7 +76,7 @@ export default function ShopifyPage() {
         },
         {
           name: 'Shopify Plus / Headless',
-          price: '£40,000+',
+          price: '$40,000+',
           priceSuffix: 'custom',
           description: 'Enterprise-grade Plus or Hydrogen builds.',
           features: ['Plus migration', 'Hydrogen / Oxygen storefront', 'Custom checkout', 'ERP & POS integration', 'Multi-region & currency', 'Dedicated Plus team', 'Quarterly roadmap', 'Bespoke pricing'],
@@ -86,7 +86,7 @@ export default function ShopifyPage() {
         { question: 'Are you a Shopify Partner?', answer: 'Yes, Shopify Plus Partner. Our senior devs are Liquid, Hydrogen, and Shopify Functions certified.' },
         { question: 'Can you migrate to Shopify from another platform?', answer: 'Yes. We handle migrations from WooCommerce, Magento, BigCommerce, and custom platforms, with SEO preserved and zero downtime.' },
         { question: 'Should I go headless?', answer: "Only if your speed or UX goals exceed what Liquid can deliver. We'll honestly tell you whether headless is worth the added complexity for your business." },
-        { question: 'Do you maintain stores after launch?', answer: 'Yes. Retainers cover theme updates, app management, CRO experiments, and bug fixes, typically £2,500–£8,000/month.' },
+        { question: 'Do you maintain stores after launch?', answer: 'Yes. Retainers cover theme updates, app management, CRO experiments, and bug fixes, typically $2,500–$8,000/month.' },
         { question: 'Can you optimize my existing Shopify store?', answer: "Absolutely. We run a free 30-min audit identifying the top 3 conversion-killers in your store. From there we can scope a CRO sprint or full rebuild." },
       ]}
       testimonials={[

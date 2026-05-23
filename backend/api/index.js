@@ -6,11 +6,11 @@ const { Resend } = require('resend')
 const app = express()
 const resend = new Resend(process.env.RESEND_API_KEY)
 const TO = process.env.CONTACT_RECIPIENT || 'radiantcortex@gmail.com'
-const FROM = process.env.MAIL_FROM || 'Ace Studios <noreply@acestudiosuk.com>'
+const FROM = process.env.MAIL_FROM || 'Ace Studios <noreply@acestudiosus.com>'
 
 const ALLOWED_ORIGINS = [
-  'https://acestudiosuk.com',
-  'https://www.acestudiosuk.com',
+  'https://acestudiosus.com',
+  'https://www.acestudiosus.com',
   'http://localhost:3000',
 ]
 
@@ -43,7 +43,7 @@ function wrap(title, inner) {
     <div style="max-width:600px;margin:0 auto;background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e8e5e1;">
       <div style="background:#0a0c10;color:#fff;padding:20px 24px;">
         <h1 style="margin:0;font-size:18px;">${esc(title)}</h1>
-        <p style="margin:4px 0 0;font-size:12px;color:#aaa;">From acestudiosuk.com</p>
+        <p style="margin:4px 0 0;font-size:12px;color:#aaa;">From acestudiosus.com</p>
       </div>
       <table style="width:100%;border-collapse:collapse;font-size:14px;">${inner}</table>
     </div>

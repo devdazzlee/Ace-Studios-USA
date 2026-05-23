@@ -49,7 +49,7 @@ export default function ErpPosPage() {
         'Optional fractional ERP admin retainer post-launch',
       ]}
       processHeading="Implementation, done right."
-      processSubheading="A phased, risk-averse rollout model used at brands from £5M to £500M ARR."
+      processSubheading="A phased, risk-averse rollout model used at brands from $5M to $500M ARR."
       process={[
         { step: '01', title: 'Discovery', description: 'Process mapping, data audit, and gap analysis.', icon: CompassIcon },
         { step: '02', title: 'Configure', description: 'System setup, custom fields, workflows, and reports.', icon: LayoutDashboardIcon },
@@ -61,14 +61,14 @@ export default function ErpPosPage() {
       pricing={[
         {
           name: 'POS Setup',
-          price: '£5,500',
+          price: '$5,500',
           priceSuffix: 'starting',
           description: 'Single-location POS, end to end.',
           features: ['Hardware specs & sourcing', 'Software config', 'Inventory import', 'Staff training', 'Shopify / e-com integration', '30-day support'],
         },
         {
           name: 'ERP Implementation',
-          price: '£25,000',
+          price: '$25,000',
           priceSuffix: 'starting',
           description: 'NetSuite, SAP, or Odoo full rollout.',
           features: ['Process mapping', 'System configuration', 'Data migration', 'Custom integrations (3)', 'Training & documentation', 'Parallel-run support', '90-day post-launch support'],
@@ -82,7 +82,7 @@ export default function ErpPosPage() {
         },
       ]}
       faqs={[
-        { question: 'Which ERP should we use?', answer: 'It depends on size, industry, and complexity. We recommend NetSuite for £5M–£100M brands, SAP for enterprise, Odoo for cost-conscious mid-market. We are platform-agnostic.' },
+        { question: 'Which ERP should we use?', answer: 'It depends on size, industry, and complexity. We recommend NetSuite for $5M–$100M brands, SAP for enterprise, Odoo for cost-conscious mid-market. We are platform-agnostic.' },
         { question: 'Can you integrate ERP with Shopify or Amazon?', answer: 'Yes. We build real-time bidirectional integrations for inventory, orders, customers, and financials, using Celigo, MESA, or custom middleware.' },
         { question: 'How long does an ERP implementation take?', answer: 'Typical small-business implementations take 12–16 weeks. Mid-market takes 5–8 months. Enterprise can run 9–18 months phased.' },
         { question: 'Will you train our team?', answer: 'Absolutely. Every engagement includes live training sessions, recorded videos, and written SOPs tailored to your team and workflows.' },

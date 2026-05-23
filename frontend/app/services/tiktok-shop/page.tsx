@@ -26,7 +26,7 @@ export default function TikTokShopPage() {
       secondaryCTA="See Creator Reels"
       stats={[
         { value: 90, suffix: '+', label: 'TikTok Shops' },
-        { value: 18, suffix: 'M+', prefix: '£', label: 'GMV Generated' },
+        { value: 18, suffix: 'M+', prefix: '$', label: 'GMV Generated' },
         { value: 2500, suffix: '+', label: 'Creators Activated' },
         { value: 7, suffix: 'x', label: 'Avg. ROAS' },
       ]}
@@ -61,35 +61,35 @@ export default function TikTokShopPage() {
       pricing={[
         {
           name: 'Launch',
-          price: '£2,500',
+          price: '$2,500',
           priceSuffix: '/month',
           description: 'Get on TikTok Shop the right way.',
           features: ['Full shop setup & integration', 'Catalog sync', '10 reels per month', 'Up to 25 creators onboarded', 'Weekly reporting', 'Email support'],
         },
         {
           name: 'Growth',
-          price: '£6,500',
+          price: '$6,500',
           priceSuffix: '/month',
-          description: 'For brands doing £25k–£250k GMV monthly.',
+          description: 'For brands doing $25k–$250k GMV monthly.',
           features: ['30 reels per month', 'Up to 200 creators managed', 'Spark Ads management', 'Live shopping (4/month)', 'GMV Max optimization', 'Weekly strategy calls', 'Slack support'],
           popular: true,
         },
         {
           name: 'Scale',
           price: 'Custom',
-          description: 'For brands £250k+/month GMV.',
+          description: 'For brands $250k+/month GMV.',
           features: ['Unlimited content', 'Unlimited creators', 'Daily live shopping', 'Unlimited ad spend', 'In-house creator partnerships', 'Dedicated production crew', 'Quarterly strategy', 'Bespoke pricing'],
         },
       ]}
       faqs={[
-        { question: 'Is TikTok Shop right for my brand?', answer: 'TikTok Shop excels for visually-driven products under £100, beauty, fashion, home, food, and gadgets. We can audit your category and tell you honestly.' },
+        { question: 'Is TikTok Shop right for my brand?', answer: 'TikTok Shop excels for visually-driven products under $100, beauty, fashion, home, food, and gadgets. We can audit your category and tell you honestly.' },
         { question: 'Do you handle creator payments?', answer: 'Yes. We onboard creators on commission, manage payouts via TikTok Affiliate, and handle all 1099 paperwork.' },
         { question: 'How do live shopping streams work?', answer: 'For Growth and Scale tiers, we produce 4–30+ lives per month with hosts, sets, scripts, and full production. You ship product, we run the show.' },
         { question: 'Can you sync inventory with Shopify?', answer: 'Yes. Real-time sync with Shopify, including pricing, stock, variants, and orders. No double-data entry.' },
         { question: "What if TikTok Shop doesn't work for us?", answer: "We are honest. If our 60-day pilot doesn't show clear traction, we'll either pivot the strategy or recommend you redirect that budget to channels with better fit." },
       ]}
       testimonials={[
-        { name: 'Lisa Thompson', role: 'Beauty Brand Owner', quote: 'Hit £400k GMV in our second month on TikTok Shop. Their creator network is unreal.' },
+        { name: 'Lisa Thompson', role: 'Beauty Brand Owner', quote: 'Hit $400k GMV in our second month on TikTok Shop. Their creator network is unreal.' },
         { name: 'Emma Rodriguez', role: 'DTC Founder', quote: 'Lives alone do 6 figures a month for us now. They handle production end to end.' },
         { name: 'David Kim', role: 'Apparel Founder', quote: 'Best 7x ROAS we have ever seen. Spark Ads + creators compound on each other beautifully.' },
       ]}

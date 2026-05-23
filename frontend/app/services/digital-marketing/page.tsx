@@ -20,18 +20,18 @@ export default function DigitalMarketingPage() {
       badge="Digital Marketing"
       title="Marketing that drives"
       titleAccent="real revenue"
-      subtitle="Not impressions, not vanity metrics, actual revenue. We run SEO, paid ads, email/SMS, and social media for brands that measure growth in pounds and pence."
+      subtitle="Not impressions, not vanity metrics, actual revenue. We run SEO, paid ads, email/SMS, and social media for brands that measure growth in dollars and cents."
       heroImage="/design-service.jpg"
       primaryCTA="Get a Free Marketing Audit"
       secondaryCTA="See Case Studies"
       stats={[
         { value: 8, suffix: 'x', label: 'Avg. ROAS' },
         { value: 320, suffix: '+', label: 'Brands Scaled' },
-        { value: 50, suffix: 'M+', prefix: '£', label: 'Ad Spend Managed' },
+        { value: 50, suffix: 'M+', prefix: '$', label: 'Ad Spend Managed' },
         { value: 47, suffix: '%', label: 'Avg. Revenue Lift' },
       ]}
       featuresHeading="A full-stack growth team."
-      featuresSubheading="Six channels, one team. We orchestrate them together so every pound compounds."
+      featuresSubheading="Six channels, one team. We orchestrate them together so every dollar compounds."
       features={[
         { icon: SearchIcon, title: 'SEO & Content', description: 'Technical SEO, content strategy, and link-building that ranks for high-intent keywords.' },
         { icon: TargetIcon, title: 'Paid Search', description: 'Google Ads, Bing, and Performance Max managed to your CAC and target ROAS.' },
@@ -49,7 +49,7 @@ export default function DigitalMarketingPage() {
         'Founder-level access, text our CMO directly',
       ]}
       processHeading="The growth playbook."
-      processSubheading="A repeatable model used to scale brands from £1M to £20M+ in annual revenue."
+      processSubheading="A repeatable model used to scale brands from $1M to $20M+ in annual revenue."
       process={[
         { step: '01', title: 'Audit', description: 'Funnel, channel, and competitor audit with growth opportunities.', icon: CompassIcon },
         { step: '02', title: 'Strategy', description: 'Channel mix, budget allocation, and 90-day roadmap.', icon: LineChartIcon },
@@ -61,23 +61,23 @@ export default function DigitalMarketingPage() {
       pricing={[
         {
           name: 'Launch',
-          price: '£3,500',
+          price: '$3,500',
           priceSuffix: '/month',
-          description: 'For brands under £50k/month in revenue.',
-          features: ['1–2 paid channels', 'SEO basics & blog content (2/month)', 'Email flows (5 core)', 'Weekly reporting', 'Bi-weekly strategy calls', 'Up to £20k ad spend managed'],
+          description: 'For brands under $50k/month in revenue.',
+          features: ['1–2 paid channels', 'SEO basics & blog content (2/month)', 'Email flows (5 core)', 'Weekly reporting', 'Bi-weekly strategy calls', 'Up to $20k ad spend managed'],
         },
         {
           name: 'Growth',
-          price: '£7,500',
+          price: '$7,500',
           priceSuffix: '/month',
-          description: 'For brands doing £50k–£500k monthly.',
-          features: ['Up to 4 paid channels', 'Full SEO + 4 blog posts/mo', 'Klaviyo + Postscript managed', 'In-house UGC creative', 'CRO testing on-site', 'Weekly strategy calls', 'Up to £100k ad spend'],
+          description: 'For brands doing $50k–$500k monthly.',
+          features: ['Up to 4 paid channels', 'Full SEO + 4 blog posts/mo', 'Klaviyo + Postscript managed', 'In-house UGC creative', 'CRO testing on-site', 'Weekly strategy calls', 'Up to $100k ad spend'],
           popular: true,
         },
         {
           name: 'Scale',
           price: 'Custom',
-          description: 'For brands £500k+/month.',
+          description: 'For brands $500k+/month.',
           features: ['All paid channels', 'Influencer & affiliate programs', 'Lifecycle marketing engine', 'Brand & PR campaigns', 'Quarterly creative refresh', 'Dedicated growth team', 'Attribution & MMM', 'Bespoke pricing'],
         },
       ]}
@@ -91,7 +91,7 @@ export default function DigitalMarketingPage() {
       testimonials={[
         { name: 'Emma Rodriguez', role: 'Digital Agency Owner', quote: 'Conversion rates up 45% and lead quality improved dramatically. Their attribution work alone is worth the retainer.' },
         { name: 'Marcus Chen', role: 'DTC Founder', quote: '8x blended ROAS across paid, organic, and email. Best growth team we have hired in five years.' },
-        { name: 'Sarah Johnson', role: 'E-Commerce Founder', quote: 'They scaled us from £200k to £1.4M/month in 11 months. The creative and email work compounded everything.' },
+        { name: 'Sarah Johnson', role: 'E-Commerce Founder', quote: 'They scaled us from $200k to $1.4M/month in 11 months. The creative and email work compounded everything.' },
       ]}
       ctaHeading="Ready to scale profitably?"
       ctaSubheading="Free 60-min audit, we'll identify the biggest growth levers in your business within 24 hours."

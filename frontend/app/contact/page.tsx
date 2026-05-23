@@ -163,7 +163,7 @@ export default function Contact() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="07366 488595"
+                        placeholder="+1 (737) 394-5403"
                         className="bg-white dark:bg-card"
                       />
                     </div>
@@ -254,10 +254,10 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Email</h3>
                     <a
-                      href="mailto:contact@acestudiosuk.com"
+                      href="mailto:contact@acestudiosus.com"
                       className="text-foreground/70 hover:text-accent transition-colors"
                     >
-                      contact@acestudiosuk.com
+                      contact@acestudiosus.com
                     </a>
                     <p className="text-sm text-foreground/60 mt-1">We typically reply within 24 hours</p>
                   </div>
@@ -276,8 +276,8 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Phone</h3>
-                    <p className="text-foreground/70">07366 488595</p>
-                    <p className="text-sm text-foreground/60 mt-1">Mon-Fri 9AM-6PM GMT</p>
+                    <p className="text-foreground/70">+1 (737) 394-5403</p>
+                    <p className="text-sm text-foreground/60 mt-1">Mon-Fri 9AM-6PM EST</p>
                   </div>
                 </motion.div>
 
@@ -295,7 +295,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Business Hours</h3>
                     <p className="text-foreground/70">Monday - Friday</p>
-                    <p className="text-foreground/70">9:00 AM - 6:00 PM GMT</p>
+                    <p className="text-foreground/70">9:00 AM - 6:00 PM EST</p>
                     <p className="text-sm text-foreground/60 mt-2">Weekend responses available upon request</p>
                   </div>
                 </motion.div>
@@ -401,17 +401,17 @@ export default function Contact() {
               Where to Find <span className="text-secondary">Us</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto mt-4">
-              Headquartered in Manchester, United Kingdom, serving clients across the UK and beyond.
+              Headquartered in Austin, Texas, serving clients across the United States and beyond.
             </p>
           </div>
 
           <div className="grid md:grid-cols-1 max-w-xl mx-auto gap-8">
             {[
               {
-                city: 'Manchester',
+                city: 'Austin',
                 region: 'Headquarters',
-                address: 'Chancery Place, 50 Brown St, Manchester, United Kingdom, M2 2JG',
-                time: '9:00 AM - 6:00 PM GMT',
+                address: '5900 Balcones Dr. STE 100, Austin, Texas 78731',
+                time: '9:00 AM - 6:00 PM CST',
                 color: 'from-orange-500 to-accent',
               },
             ].map((loc, idx) => (

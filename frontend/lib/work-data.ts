@@ -56,13 +56,13 @@ export const works: WorkCase[] = [
     accent: 'pink',
     shortResult: '+312% revenue in 6 months',
     summary:
-      'A 4-year-old clean-beauty brand was stuck at £40k/month after a stale Shopify build and a logo no one remembered. We rebuilt the brand, the storefront, and the entire growth engine.',
+      'A 4-year-old clean-beauty brand was stuck at $40k/month after a stale Shopify build and a logo no one remembered. We rebuilt the brand, the storefront, and the entire growth engine.',
     challenge:
       'Lumora had product-market fit but no growth lever was working. Their store loaded in 8s on mobile, the brand felt indistinguishable from competitors, and email was generating less than 4% of revenue.',
     solution:
       'We rebuilt the visual identity from scratch, new wordmark, palette, and packaging system. Then we shipped a custom Shopify Plus theme with a one-page checkout, rolled out a 14-flow Klaviyo program, and ran Meta + TikTok creative in parallel.',
     outcome:
-      "Lumora's monthly revenue grew from £40k to £164k within six months. Email rose to 32% of revenue. Mobile load time dropped from 8s to 1.1s.",
+      "Lumora's monthly revenue grew from $40k to $164k within six months. Email rose to 32% of revenue. Mobile load time dropped from 8s to 1.1s.",
     icon: SparklesIcon,
     results: [
       { metric: '+312%', label: 'Revenue (6 months)' },
@@ -95,7 +95,7 @@ export const works: WorkCase[] = [
     summary:
       'A premium outdoor apparel brand needed a refreshed identity and a website that finally matched the quality of their product. We delivered both, plus a 45% lift in conversion rate.',
     challenge:
-      "Northstar's existing site looked like a 2014 boilerplate Shopify theme. Their products retailed at £400+ but the digital experience screamed bargain bin. Bounce rate on PDPs sat at 78%.",
+      "Northstar's existing site looked like a 2014 boilerplate Shopify theme. Their products retailed at $400+ but the digital experience screamed bargain bin. Bounce rate on PDPs sat at 78%.",
     solution:
       'We led with brand strategy, defining their voice, audience, and competitive position. Then we built a custom Next.js storefront with cinematic photography direction, an editorial PDP system, and a frictionless checkout.',
     outcome:
@@ -155,7 +155,7 @@ export const works: WorkCase[] = [
   },
   {
     slug: 'halcyon-saas',
-    title: 'B2B SaaS goes from zero to £2M ARR in 12 months',
+    title: 'B2B SaaS goes from zero to $2M ARR in 12 months',
     client: 'Halcyon SaaS',
     category: 'Web App · Brand',
     tags: ['SaaS', 'Custom Software', 'Brand', 'Web App'],
@@ -165,18 +165,18 @@ export const works: WorkCase[] = [
     heroImage: '/development-service.jpg',
     gradient: 'from-orange-400 via-amber-500 to-yellow-500',
     accent: 'orange',
-    shortResult: '£2M ARR in year one',
+    shortResult: '$2M ARR in year one',
     summary:
-      'A solo founder with a deep insight into compliance workflows came to us with a Figma file and a deadline. We built the product, the brand, and the GTM site, and helped them hit £2M ARR in year one.',
+      'A solo founder with a deep insight into compliance workflows came to us with a Figma file and a deadline. We built the product, the brand, and the GTM site, and helped them hit $2M ARR in year one.',
     challenge:
       'Halcyon needed a production-grade SaaS, a brand that signaled enterprise trust, and a marketing site that converted skeptical compliance buyers. All on a 5-month runway.',
     solution:
       'We shipped the MVP web app in 12 weeks on Next.js + Postgres + Stripe. In parallel, we built the brand identity, marketing site, and onboarding flow. We then ran their Meta and LinkedIn ads for the first 90 days post-launch.',
     outcome:
-      'Halcyon crossed £2M ARR exactly twelve months after launch. Net revenue retention sits at 118%. They closed their seed round eight weeks after we shipped the MVP.',
+      'Halcyon crossed $2M ARR exactly twelve months after launch. Net revenue retention sits at 118%. They closed their seed round eight weeks after we shipped the MVP.',
     icon: CodeIcon,
     results: [
-      { metric: '£2M', label: 'ARR (year one)' },
+      { metric: '$2M', label: 'ARR (year one)' },
       { metric: '118%', label: 'Net retention' },
       { metric: '12 wk', label: 'MVP to launch' },
       { metric: '5%', label: 'Free-to-paid CVR' },
