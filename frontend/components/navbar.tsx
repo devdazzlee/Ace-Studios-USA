@@ -30,7 +30,7 @@ export function Navbar() {
     'text-sm text-primary-foreground/90 hover:text-accent transition-colors font-medium'
 
   return (
-    <nav className="sticky top-0 z-50 bg-primary border-b border-white/10 shadow-lg">
+    <nav className="sticky top-0 z-50 bg-[#12152e] border-b border-white/10 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -71,34 +71,38 @@ export function Navbar() {
                 </motion.div>
               </button>
 
-              <AnimatePresence>
-                {openDropdown === 'services' && (
+              {/* Always rendered in the DOM (not conditionally mounted) so these links
+                  are crawlable — AnimatePresence would remove them entirely when closed. */}
+              <motion.div
+                initial={false}
+                animate={
+                  openDropdown === 'services'
+                    ? { opacity: 1, y: 0, pointerEvents: 'auto' }
+                    : { opacity: 0, y: -10, pointerEvents: 'none' }
+                }
+                transition={{ duration: 0.2 }}
+                className="absolute top-full left-0 mt-2 w-72 bg-white border border-border rounded-lg shadow-xl py-2 z-50"
+              >
+                {serviceItems.map((item, idx) => (
                   <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    transition={{ duration: 0.2 }}
-                    className="absolute top-full left-0 mt-2 w-72 bg-white border border-border rounded-lg shadow-xl py-2 z-50"
+                    key={idx}
+                    whileHover={{ x: 4 }}
+                    className="overflow-hidden"
                   >
-                    {serviceItems.map((item, idx) => (
-                      <motion.div
-                        key={idx}
-                        whileHover={{ x: 4 }}
-                        className="overflow-hidden"
-                      >
-                        <Link
-                          href={item.href}
-                          className="block px-4 py-2.5 text-sm text-foreground hover:bg-secondary/10 hover:text-secondary transition-colors"
-                        >
-                          {item.label}
-                        </Link>
-                      </motion.div>
-                    ))}
+                    <Link
+                      href={item.href}
+                      className="block px-4 py-2.5 text-sm text-foreground hover:bg-secondary/10 hover:text-secondary transition-colors"
+                    >
+                      {item.label}
+                    </Link>
                   </motion.div>
-                )}
-              </AnimatePresence>
+                ))}
+              </motion.div>
             </div>
 
+            <Link href="/work" className={navLinkClass}>
+              Work
+            </Link>
             <Link href="/blog" className={navLinkClass}>
               Blog
             </Link>
@@ -184,6 +188,9 @@ export function Navbar() {
                   </AnimatePresence>
                 </div>
 
+                <Link href="/work" className="block px-4 py-2 text-primary-foreground hover:bg-white/10 rounded-lg transition-colors">
+                  Work
+                </Link>
                 <Link href="/blog" className="block px-4 py-2 text-primary-foreground hover:bg-white/10 rounded-lg transition-colors">
                   Blog
                 </Link>

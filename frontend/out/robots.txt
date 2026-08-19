@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://acestudiosus.com
+Sitemap: https://acestudiosus.com/sitemap.xml
